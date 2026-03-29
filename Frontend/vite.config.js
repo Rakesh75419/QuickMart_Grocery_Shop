@@ -1,13 +1,12 @@
-import {defineConfig} from "vite";
+import { defineConfig } from "vite";
 
 export default defineConfig({
-    root:".",
-    server:{
-        port:7777,
-        open:true    
+  build: {
+    rollupOptions: {
+      input: {
+        main: "index.html",
+        home: "src/Home/home.html",
+      },
     },
-
-    build:{
-        outDir:"dist"
-    }
-})
+  },
+});
