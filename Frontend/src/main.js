@@ -84,7 +84,7 @@ window.addEventListener("DOMContentLoaded", () => {
 
       localStorage.setItem("loggedInUser", JSON.stringify(user));
       alert("Login successful!");
-      window.location.href = "./src/Home/home.html";
+      window.location.href = "/src/Home/home.html";
     } catch (err) {
       console.error(err);
       alert("Login failed!");
