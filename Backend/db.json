@@ -1,0 +1,91 @@
+{
+  "users": [
+    {
+      "id": "1769799228914",
+      "fullname": "RAKESH KUMAR",
+      "email": "rakesh123@gmail.com",
+      "password": "Rakesh123",
+      "createdAt": "31/01/2026, 00:23:48"
+    },
+    {
+      "id": "1769799670762",
+      "fullname": "rahul",
+      "email": "rahul123@gmail.com",
+      "password": "rahul123",
+      "createdAt": "31/01/2026, 00:31:09"
+    },
+    {
+      "id": "1770226305210",
+      "fullname": "raj",
+      "email": "raj123@gmail.com",
+      "password": "raj123",
+      "createdAt": "04/02/2026, 23:01:45"
+    },
+    {
+      "id": "1770229988268",
+      "fullname": "RAKESH KUMAR",
+      "email": "rakeshkumar06560@gmail.com",
+      "password": "1234567890",
+      "createdAt": "05/02/2026, 00:03:08"
+    },
+    {
+      "id": "1771090091600",
+      "fullname": "Soni",
+      "email": "soni123@gmail.com",
+      "password": "soni1234",
+      "createdAt": "14/02/2026, 22:58:11"
+    },
+    {
+      "id": "1771093855952",
+      "fullname": "Prince Yadav",
+      "email": "prince123@gmail.com",
+      "password": "prince1234",
+      "createdAt": "15/02/2026, 00:00:55"
+    }
+  ],
+  "carts": [
+    {
+      "userId": "1771093855952",
+      "items": [
+        {
+          "id": 1771094008637,
+          "name": "Gits Mini Gulab Jamun Tin | Authentic Indian Sweet",
+          "price": "₹55",
+          "image": "https://cdn.zeptonow.com/production/tr:w-403,ar-2400-2400,pr-true,f-auto,,q-40,dpr-2/cms/product_variant/066c7d52-3e74-4a1d-a023-40b6a97fb04c.jpeg",
+          "quantity": 1
+        },
+        {
+          "id": 1771094009849,
+          "name": "Golden Bananas",
+          "price": "₹75",
+          "image": "https://fruitfortheoffice.co.uk/media/.renditions/wysiwyg/42e9as7nataai4a6jcufwg.jpeg",
+          "quantity": 1
+        },
+        {
+          "id": 1771094011301,
+          "name": "Coconut",
+          "price": "₹90",
+          "image": "https://t3.ftcdn.net/jpg/01/75/17/08/240_F_175170896_gwPS1Efc0gOmarVdqwDSv4KQAb7jqg3N.jpg",
+          "quantity": 1
+        },
+        {
+          "id": 1771094013061,
+          "name": "Fresh Milk",
+          "price": "₹64",
+          "image": "https://instamart-media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/NI_CATALOG/IMAGES/ciw/2025/12/17/51a2cd89-2a42-4b2b-ac97-95288e02952d_TYF3262KU8_MN_16122025.png",
+          "quantity": 1
+        },
+        {
+          "id": 1771094014014,
+          "name": "Whole Wheat Bread",
+          "price": "₹65",
+          "image": "https://www.bbassets.com/media/uploads/p/l/40162924_7-britannia-100-whole-wheat-bread.jpg",
+          "quantity": 1
+        }
+      ],
+      "updatedAt": "15/02/2026, 00:03:34",
+      "id": "4ec1"
+    }
+  ],
+  "promoCodes": []
+}
