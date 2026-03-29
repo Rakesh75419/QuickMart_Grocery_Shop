@@ -39,6 +39,9 @@ function generateShortId() {
   return String(Date.now() + Math.floor(Math.random() * 1000));
 }
 
+// 🔥 IMPORTANT: Live Backend URL
+const BASE_URL = "https://quickmart-grocery-shop.onrender.com";
+
 // ================= MAIN =================
 window.addEventListener("DOMContentLoaded", () => {
   showLoginForm();
@@ -61,7 +64,7 @@ window.addEventListener("DOMContentLoaded", () => {
     const password = document.getElementById("password").value.trim();
 
     try {
-      const res = await fetch("http://localhost:5000/users");
+      const res = await fetch(`${BASE_URL}/users`);
       if (!res.ok) throw new Error("GET users failed");
 
       const users = await res.json();
@@ -113,8 +116,7 @@ window.addEventListener("DOMContentLoaded", () => {
     }
 
     try {
-      // check existing users
-      const checkRes = await fetch("http://localhost:5000/users");
+      const checkRes = await fetch(`${BASE_URL}/users`);
       if (!checkRes.ok) throw new Error("GET users failed");
 
       const users = await checkRes.json();
@@ -125,8 +127,7 @@ window.addEventListener("DOMContentLoaded", () => {
         return;
       }
 
-      // create user
-      const createRes = await fetch("http://localhost:5000/users", {
+      const createRes = await fetch(`${BASE_URL}/users`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
